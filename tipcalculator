@@ -1,0 +1,4 @@
+total_bill =  input("What was the total bill")
+print(f"Your total bill was: {total_bill}")
+tip_percent = input(f"What tip would you like to give: 10 12 15?")
+tip = total_bill * tip_percent * .1
