@@ -1,3 +1,7 @@
+# The pilot SOs have a header at the top that needs to be removed.
+# just run this in  your vscode cell and it will strip it off and put it back for you.
+#--Eric
+
 import os
 from pathlib import Path
 directory = 'T:\ETL\Ptest4'
